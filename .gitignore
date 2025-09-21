@@ -1,0 +1,80 @@
+######################################
+# Generic system cruft
+######################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*~
+
+######################################
+# Editor / IDE
+######################################
+.vscode/*
+!.vscode/settings.json        # keep project settings if you like
+.idea/
+*.iml
+*.code-workspace
+*.log
+
+######################################
+# Shell / Environment
+######################################
+# Fish: machine-specific universal variables
+fish/.config/fish/fish_variables
+
+# Zsh: history file & completion dumps
+zsh/.zsh_history
+zsh/.zcompdump*
+
+# Bash: history
+bash/.bash_history
+
+# direnv local env files
+.env
+.envrc
+*.env
+
+######################################
+# Package managers / language tools
+######################################
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+.venv/
+__pycache__/
+*.pyc
+
+######################################
+# OS / Desktop environment
+######################################
+# Gnome / KDE / Hyprland caches
+.config/gtk-*
+.config/*/cache/
+.cache/
+.local/share/Trash/
+
+######################################
+# Secrets (you might create these)
+######################################
+private/
+secrets/
+*.key
+*.pem
+*.crt
+*.p12
+*.kube/config
+*.gpg
+*.age
+
+######################################
+# Misc
+######################################
+*.tar
+*.zip
+*.gz
+*.tgz
+
