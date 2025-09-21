@@ -1,6 +1,7 @@
 ######################################
 # Generic system cruft
 ######################################
+*fish_variables*
 .DS_Store
 Thumbs.db
 *.swp
